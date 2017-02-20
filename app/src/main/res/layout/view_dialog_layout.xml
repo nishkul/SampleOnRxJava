@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:background="@color/mywhite"
+              android:padding="20dp">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Today's Pending Work"
+            android:textColor="@color/myheadertext"
+            android:textSize="27sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/view_title_textview"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get a girl - 404 LOL not possible, Revenge is a funnything. I a not going to buy an Apple product."
+            android:textColor="@color/mybodytext"
+            android:textSize="16sp"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/view_note_textview"/>
+    <!--   android:background="@drawable/dashedline"-->
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+
+            android:layout_height="2dp"></LinearLayout>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Urgent Note"
+            android:textColor="@color/myheadertext"
+            android:textSize="17sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/view_remark_textview"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Last Edited at 29:30"
+            android:id="@+id/view_date_textview"/>
+
+</LinearLayout>

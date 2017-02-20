@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                tools:context=".MainActivity">
+
+    <LinearLayout
+            android:background="@color/mywhite"
+            android:orientation="vertical"
+            android:paddingTop="20dp"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:paddingBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/linearLayout"
+            android:weightSum="1">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/edittext_heading"
+                android:textColor="@color/myheadertext"
+                android:text="title"
+                android:layout_marginTop="@dimen/edittext_textview_margin_down"
+                android:id="@+id/textView" />
+        <!--  android:background="@drawable/tealstroke"-->
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:padding="7dp"
+                android:layout_marginTop="@dimen/edittext_textview_margin_top"
+                android:layout_marginBottom="@dimen/edittext_textview_margin_down"
+                android:id="@+id/update_title_edittext" />
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/edittext_heading"
+                android:textColor="@color/myheadertext"
+                android:text="note"
+                android:layout_marginTop="@dimen/edittext_textview_margin_top"
+                android:id="@+id/textView2" />
+
+
+        <!--  android:background="@drawable/tealstroke"-->
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+
+                android:id="@+id/update_note_edittext"
+                android:gravity="start"
+                android:padding="7dp"
+                android:layout_marginTop="@dimen/edittext_textview_margin_top"
+                android:layout_marginBottom="@dimen/edittext_textview_margin_down"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/edittext_heading"
+                android:textColor="@color/myheadertext"
+                android:text="remark"
+                android:layout_marginTop="@dimen/edittext_textview_margin_top"
+                android:id="@+id/textView3" />
+       <!-- android:background="@drawable/tealstroke"-->
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+
+                android:padding="7dp"
+                android:layout_marginTop="@dimen/edittext_textview_margin_top"
+                android:layout_marginBottom="@dimen/edittext_textview_margin_down"
+                android:id="@+id/update_remark_edittext"/>
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="@dimen/edittext_textview_margin_top"
+                android:layout_marginBottom="@dimen/edittext_textview_margin_down"
+                android:layout_gravity="center_horizontal">
+
+            <!-- android:background="@drawable/tealbg"-->
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Save"
+                    android:textColor="@color/mywhite"
+                    android:layout_weight="1"
+                    android:layout_margin="@dimen/button_margin"
+
+                    android:id="@+id/save" />
+            <!-- android:background="@drawable/tealbg"-->
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cancel"
+                    android:textColor="@color/mywhite"
+                    android:layout_weight="1"
+                    android:layout_margin="@dimen/button_margin"
+
+                    android:id="@+id/cancel" />
+
+        </LinearLayout>
+       <!-- android:background="@drawable/tealstroke"-->
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Show Notes"
+                android:textColor="@color/myteal"
+                android:id="@+id/update_shownotes"
+                android:layout_margin="15dp"
+                android:layout_marginTop="@dimen/edittext_textview_margin_top"
+                android:layout_marginBottom="@dimen/edittext_textview_margin_down"
+
+                android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+
+</RelativeLayout>

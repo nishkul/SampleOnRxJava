@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:background="@color/mywhite"
+              android:paddingTop="20dp"
+              android:paddingRight="10dp"
+              android:paddingLeft="10dp"
+              android:paddingBottom="20dp">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete this Note?"
+            android:textSize="25sp"
+            android:textColor="@color/myheadertext"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/textView4"
+            android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+<!-- android:background="@drawable/redstroke"-->
+        <Button
+                android:layout_width="110dp"
+                android:layout_height="30dp"
+                android:text="I'm Sure"
+                android:textSize="13sp"
+                android:textColor="@color/myred"
+                android:layout_marginRight="40dp"
+
+                android:id="@+id/imsure" />
+        <!-- android:background="@drawable/redstroke"-->
+        <Button
+                android:layout_width="110dp"
+                android:layout_height="30dp"
+                android:text="Nup Return"
+                android:textColor="@color/myred"
+                android:textSize="13sp"
+                android:layout_marginLeft="40dp"
+                android:id="@+id/nupreturn" />
+
+    </LinearLayout>
+
+</LinearLayout>

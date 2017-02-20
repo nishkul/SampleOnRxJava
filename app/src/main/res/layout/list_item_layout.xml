@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--android:background="@drawable/list_background"-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_margin="7dp"
+              android:paddingLeft="20dp"
+              android:paddingRight="20dp"
+              android:paddingTop="13dp"
+              android:paddingBottom="13dp"
+              >
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Heading Text"
+            android:textColor="@color/myheadertext"
+            android:textSize="18sp"
+            android:layout_marginBottom="9dp"
+            android:id="@+id/list_title_textview" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My girl is gonna abcdefg"
+            android:textColor="@color/mybodytext"
+            android:textSize="13sp"
+            android:layout_marginBottom="25dp"
+            android:id="@+id/list_note_textview" />
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+<!--  android:background="@drawable/bluebg"-->
+        <Button
+                android:layout_width="110dp"
+                android:layout_height="30dp"
+                android:text="Edit"
+                android:textColor="@color/mywhite"
+
+                android:id="@+id/edit"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="20dp" />
+<!--  android:background="@drawable/bluestroke"-->
+        <Button
+                android:layout_width="110dp"
+                android:layout_height="30dp"
+                android:text="Delete"
+                android:id="@+id/delete"
+
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>
